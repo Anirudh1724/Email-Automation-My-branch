@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "lib": [
+            "deno.window"
+        ],
+        "strict": true
+    },
+    "imports": {
+        "imap-simple": "npm:imap-simple@5.1.0",
+        "mailparser": "npm:mailparser@3.6.4",
+        "nodemailer": "npm:nodemailer@6.9.1",
+        "@supabase/supabase-js": "https://esm.sh/@supabase/supabase-js@2",
+        "std/": "https://deno.land/std@0.190.0/"
+    }
+}
